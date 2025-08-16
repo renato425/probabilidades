@@ -117,94 +117,416 @@ const probabilidades = {
         ],
     },
     serieB: {
-        campeao: [
-            { rank: 1, team: 'Goiás', chance: 41.044 },
-            { rank: 2, team: 'Coritiba', chance: 35.826 },
-            { rank: 3, team: 'Grêmio Novorizontino', chance: 5.528 },
-            { rank: 4, team: 'Chapecoense', chance: 5.472 },
-            { rank: 5, team: 'Remo', chance: 3.094},
-            { rank: 6, team: 'Criciúma', chance: 2.592 },
-            { rank: 7, team: 'Avaí', chance: 2.233 },
-            { rank: 8, team: 'Cuiabá', chance: 1.772 },
-            { rank: 9, team: 'Vila Nova', chance: 1.240 },
-            { rank: 10, team: 'CRB', chance: 0.447 },
-            { rank: 11, team: 'Atlético-GO', chance: 0.199 },
-            { rank: 12, team: 'Operário-PR', chance: 0.180 },
-            { rank: 13, team: 'Athletico-PR', chance: 0.169 },
-            { rank: 14, team: 'Ferroviária', chance: 0.121 },
-            { rank: 15, team: 'Athletic-MG', chance: 0.066 },
-            { rank: 16, team: 'Volta Redonda', chance: 0.017 },
-            { rank: 17, team: 'América-MG', chance: 0.010 },
-            { rank: 18, team: 'Botafogo-SP', chance: 0.009 },
-            { rank: 19, team: 'Paysandu', chance: 0.007 },
-            { rank: 20, team: 'Amazonas', chance: 0.004 }
-        ],
-        acesso: [
-            { rank: 1, team: 'Goiás', chance: 87.351 },
-            { rank: 2, team: 'Coritiba', chance: 86.447 },
-            { rank: 3, team: 'Grêmio Novorizontino', chance: 42.585 },
-            { rank: 4, team: 'Chapecoense', chance: 40.901 },
-            { rank: 5, team: 'Remo', chance: 29.665 },
-            { rank: 6, team: 'Criciúma', chance: 25.748 },
-            { rank: 7, team: 'Avaí', chance: 23.562 },
-            { rank: 8, team: 'Cuiabá', chance: 20.300 },
-            { rank: 9, team: 'Vila Nova', chance: 15.898 },
-            { rank: 10, team: 'CRB', chance: 8.124 },
-            { rank: 11, team: 'Atlético-GO', chance: 4.753 },
-            { rank: 12, team: 'Operário-PR', chance: 3.858 },
-            { rank: 13, team: 'Athletico-PR', chance: 3.611 },
-            { rank: 14, team: 'Ferroviária', chance: 3.421 },
-            { rank: 15, team: 'Athletic-MG', chance: 1.856 },
-            { rank: 16, team: 'Volta Redonda', chance: 0.656 },
-            { rank: 17, team: 'América-MG', chance: 0.409 },
-            { rank: 18, team: 'Botafogo-SP', chance: 0.361 },
-            { rank: 19, team: 'Paysandu', chance: 0.287 },
-            { rank: 20, team: 'Amazonas', chance: 0.207 }
-        ],
-        permanencia: [
-            { rank: 1, team: 'Vila Nova', chance: 86.541 },
-            { rank: 2, team: 'CRB', chance: 86.526 },
-            { rank: 3, team: 'Cuiabá', chance: 85.190 },
-            { rank: 4, team: 'Avaí', chance: 83.245 },
-            { rank: 5, team: 'Atlético-GO', chance: 82.669 },
-            { rank: 6, team: 'Criciúma', chance: 81.938 },
-            { rank: 7, team: 'Athletico-PR', chance: 80.115 },
-            { rank: 8, team: 'Operário-PR', chance: 80.047 },
-            { rank: 9, team: 'Remo', chance: 79.674 },
-            { rank: 10, team: 'Ferroviária', chance: 78.564 },
-            { rank: 11, team: 'Chapecoense', chance: 71.163 },
-            { rank: 12, team: 'Grêmio Novorizontino', chance: 70.600 },
-            { rank: 13, team: 'Athletic-MG', chance: 69.612 },
-            { rank: 14, team: 'Volta Redonda', chance: 52.226 },
-            { rank: 15, team: 'América-MG', chance: 47.129 },
-            { rank: 16, team: 'Botafogo-SP', chance: 44.642 },
-            { rank: 17, team: 'Paysandu', chance: 42.250 },
-            { rank: 18, team: 'Amazonas', chance: 35.240 },
-            { rank: 19, team: 'Coritiba', chance: 22.096 },
-            { rank: 20, team: 'Goiás', chance: 20.533 }
-        ],
-        rebaixamento: [ 
-            { rank: 1, team: 'Amazonas', chance: 64.681 },
-            { rank: 2, team: 'Paysandu', chance: 57.637 },
-            { rank: 3, team: 'Botafogo-SP', chance: 55.215 },
-            { rank: 4, team: 'América-MG', chance: 52.683 },
-            { rank: 5, team: 'Volta Redonda', chance: 47.519 },
-            { rank: 6, team: 'Athletic-MG', chance: 29.510 },
-            { rank: 7, team: 'Ferroviária', chance: 19.841 },
-            { rank: 8, team: 'Athletico-PR', chance: 18.121},
-            { rank: 9, team: 'Operário-PR', chance: 18.009},
-            { rank: 10, team: 'Atlético-GO', chance: 14.978 },
-            { rank: 11, team: 'CRB', chance: 9.088 },
-            { rank: 12, team: 'Vila Nova', chance: 4.154 },
-            { rank: 13, team: 'Cuiabá', chance: 2.612 },
-            { rank: 14, team: 'Avaí', chance: 2.087 },
-            { rank: 15, team: 'Criciúma', chance: 1.662 },
-            { rank: 16, team: 'Remo', chance: 1.281 },
-            { rank: 17, team: 'Chapecoense', chance: 0.555 },
-            { rank: 18, team: 'Grêmio Novorizontino', chance: 0.359 },
-            { rank: 19, team: 'Coritiba', chance: 0.006 },
-            { rank: 20, team: 'Goiás', chance: 0.002 }
-        ]
+        {
+  "campeao": [
+    {
+      "rank": 1,
+      "team": "Goiás",
+      "chance": 41.368
+    },
+    {
+      "rank": 2,
+      "team": "Coritiba",
+      "chance": 35.552
+    },
+    {
+      "rank": 3,
+      "team": "Chapecoense",
+      "chance": 5.584
+    },
+    {
+      "rank": 4,
+      "team": "Novorizontino",
+      "chance": 5.576
+    },
+    {
+      "rank": 5,
+      "team": "Remo",
+      "chance": 3.084
+    },
+    {
+      "rank": 6,
+      "team": "Criciúma",
+      "chance": 2.474
+    },
+    {
+      "rank": 7,
+      "team": "Avaí",
+      "chance": 2.129
+    },
+    {
+      "rank": 8,
+      "team": "Cuiabá",
+      "chance": 1.759
+    },
+    {
+      "rank": 9,
+      "team": "Vila Nova",
+      "chance": 1.28
+    },
+    {
+      "rank": 10,
+      "team": "CRB",
+      "chance": 0.433
+    },
+    {
+      "rank": 11,
+      "team": "Atlético-GO",
+      "chance": 0.215
+    },
+    {
+      "rank": 12,
+      "team": "Operário-PR",
+      "chance": 0.157
+    },
+    {
+      "rank": 13,
+      "team": "Athletico-PR",
+      "chance": 0.147
+    },
+    {
+      "rank": 14,
+      "team": "Ferroviária",
+      "chance": 0.132
+    },
+    {
+      "rank": 15,
+      "team": "Athletic-MG",
+      "chance": 0.08
+    },
+    {
+      "rank": 16,
+      "team": "Volta Redonda",
+      "chance": 0.011
+    },
+    {
+      "rank": 17,
+      "team": "América-MG",
+      "chance": 0.008
+    },
+    {
+      "rank": 18,
+      "team": "Botafogo-SP",
+      "chance": 0.005
+    },
+    {
+      "rank": 19,
+      "team": "Paysandu",
+      "chance": 0.005
+    },
+    {
+      "rank": 20,
+      "team": "Amazonas",
+      "chance": 0.001
+    }
+  ],
+  "acesso": [
+    {
+      "rank": 1,
+      "team": "Goiás",
+      "chance": 87.671
+    },
+    {
+      "rank": 2,
+      "team": "Coritiba",
+      "chance": 86.631
+    },
+    {
+      "rank": 3,
+      "team": "Novorizontino",
+      "chance": 42.617
+    },
+    {
+      "rank": 4,
+      "team": "Chapecoense",
+      "chance": 40.981
+    },
+    {
+      "rank": 5,
+      "team": "Remo",
+      "chance": 29.574
+    },
+    {
+      "rank": 6,
+      "team": "Criciúma",
+      "chance": 25.713
+    },
+    {
+      "rank": 7,
+      "team": "Avaí",
+      "chance": 23.386
+    },
+    {
+      "rank": 8,
+      "team": "Cuiabá",
+      "chance": 20.216
+    },
+    {
+      "rank": 9,
+      "team": "Vila Nova",
+      "chance": 15.773
+    },
+    {
+      "rank": 10,
+      "team": "CRB",
+      "chance": 8.221
+    },
+    {
+      "rank": 11,
+      "team": "Atlético-GO",
+      "chance": 4.711
+    },
+    {
+      "rank": 12,
+      "team": "Operário-PR",
+      "chance": 3.85
+    },
+    {
+      "rank": 13,
+      "team": "Athletico-PR",
+      "chance": 3.733
+    },
+    {
+      "rank": 14,
+      "team": "Ferroviária",
+      "chance": 3.446
+    },
+    {
+      "rank": 15,
+      "team": "Athletic-MG",
+      "chance": 1.816
+    },
+    {
+      "rank": 16,
+      "team": "Volta Redonda",
+      "chance": 0.587
+    },
+    {
+      "rank": 17,
+      "team": "Botafogo-SP",
+      "chance": 0.393
+    },
+    {
+      "rank": 18,
+      "team": "Paysandu",
+      "chance": 0.308
+    },
+    {
+      "rank": 19,
+      "team": "América-MG",
+      "chance": 0.263
+    },
+    {
+      "rank": 20,
+      "team": "Amazonas",
+      "chance": 0.11
+    }
+  ],
+  "permanencia": [
+    {
+      "rank": 1,
+      "team": "CRB",
+      "chance": 82.794
+    },
+    {
+      "rank": 2,
+      "team": "Atlético-GO",
+      "chance": 80.705
+    },
+    {
+      "rank": 3,
+      "team": "Vila Nova",
+      "chance": 80.292
+    },
+    {
+      "rank": 4,
+      "team": "Operário-PR",
+      "chance": 78.537
+    },
+    {
+      "rank": 5,
+      "team": "Athletico-PR",
+      "chance": 78.446
+    },
+    {
+      "rank": 6,
+      "team": "Cuiabá",
+      "chance": 77.358
+    },
+    {
+      "rank": 7,
+      "team": "Ferroviária",
+      "chance": 77.308
+    },
+    {
+      "rank": 8,
+      "team": "Avaí",
+      "chance": 74.722
+    },
+    {
+      "rank": 9,
+      "team": "Criciúma",
+      "chance": 72.647
+    },
+    {
+      "rank": 10,
+      "team": "Athletic-MG",
+      "chance": 69.587
+    },
+    {
+      "rank": 11,
+      "team": "Remo",
+      "chance": 69.159
+    },
+    {
+      "rank": 12,
+      "team": "Chapecoense",
+      "chance": 58.504
+    },
+    {
+      "rank": 13,
+      "team": "Novorizontino",
+      "chance": 57.007
+    },
+    {
+      "rank": 14,
+      "team": "Volta Redonda",
+      "chance": 52.602
+    },
+    {
+      "rank": 15,
+      "team": "Botafogo-SP",
+      "chance": 44.986
+    },
+    {
+      "rank": 16,
+      "team": "América-MG",
+      "chance": 44.42
+    },
+    {
+      "rank": 17,
+      "team": "Paysandu",
+      "chance": 42.809
+    },
+    {
+      "rank": 18,
+      "team": "Amazonas",
+      "chance": 32.422
+    },
+    {
+      "rank": 19,
+      "team": "Coritiba",
+      "chance": 13.368
+    },
+    {
+      "rank": 20,
+      "team": "Goiás",
+      "chance": 12.327
+    }
+  ],
+  "rebaixamento": [
+    {
+      "rank": 1,
+      "team": "Amazonas",
+      "chance": 67.468
+    },
+    {
+      "rank": 2,
+      "team": "Paysandu",
+      "chance": 56.883
+    },
+    {
+      "rank": 3,
+      "team": "América-MG",
+      "chance": 55.317
+    },
+    {
+      "rank": 4,
+      "team": "Botafogo-SP",
+      "chance": 54.621
+    },
+    {
+      "rank": 5,
+      "team": "Volta Redonda",
+      "chance": 46.811
+    },
+    {
+      "rank": 6,
+      "team": "Athletic-MG",
+      "chance": 28.597
+    },
+    {
+      "rank": 7,
+      "team": "Ferroviária",
+      "chance": 19.246
+    },
+    {
+      "rank": 8,
+      "team": "Athletico-PR",
+      "chance": 17.821
+    },
+    {
+      "rank": 9,
+      "team": "Operário-PR",
+      "chance": 17.613
+    },
+    {
+      "rank": 10,
+      "team": "Atlético-GO",
+      "chance": 14.584
+    },
+    {
+      "rank": 11,
+      "team": "CRB",
+      "chance": 8.985
+    },
+    {
+      "rank": 12,
+      "team": "Vila Nova",
+      "chance": 3.935
+    },
+    {
+      "rank": 13,
+      "team": "Cuiabá",
+      "chance": 2.426
+    },
+    {
+      "rank": 14,
+      "team": "Avaí",
+      "chance": 1.892
+    },
+    {
+      "rank": 15,
+      "team": "Criciúma",
+      "chance": 1.64
+    },
+    {
+      "rank": 16,
+      "team": "Remo",
+      "chance": 1.267
+    },
+    {
+      "rank": 17,
+      "team": "Chapecoense",
+      "chance": 0.515
+    },
+    {
+      "rank": 18,
+      "team": "Novorizontino",
+      "chance": 0.376
+    },
+    {
+      "rank": 19,
+      "team": "Goiás",
+      "chance": 0.002
+    },
+    {
+      "rank": 20,
+      "team": "Coritiba",
+      "chance": 0.001
+    }
+  ]
+}
     }
 };
 
@@ -275,4 +597,5 @@ if (document.readyState !== 'loading') {
     loadPage()
 } else {
     document.addEventListener('DOMContentLoaded', loadPage)
+
 }
