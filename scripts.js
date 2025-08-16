@@ -117,7 +117,7 @@ const probabilidades = {
         ],
     },
     serieB: {
-        "campeao": [
+        campeao: [
             {
                 "rank": 1,
                 "team": "Goiás",
