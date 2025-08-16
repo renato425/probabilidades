@@ -117,7 +117,6 @@ const probabilidades = {
         ],
     },
     serieB: {
-        {
   "campeao": [
     {
       "rank": 1,
@@ -526,7 +525,6 @@ const probabilidades = {
       "chance": 0.001
     }
   ]
-}
     }
 };
 
@@ -599,3 +597,4 @@ if (document.readyState !== 'loading') {
     document.addEventListener('DOMContentLoaded', loadPage)
 
 }
+
