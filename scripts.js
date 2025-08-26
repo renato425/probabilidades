@@ -3,106 +3,106 @@
 // ===================================================================================
 
 const probabilidades = {
-    serieA:{
+    serieA: {
   "campeao": [
     {
       "rank": 1,
       "team": "Flamengo",
-      "chance": 51.321
+      "chance": 53.401
     },
     {
       "rank": 2,
       "team": "Palmeiras",
-      "chance": 28.028
+      "chance": 28.846
     },
     {
       "rank": 3,
       "team": "Cruzeiro",
-      "chance": 11.797
+      "chance": 10.116
     },
     {
       "rank": 4,
       "team": "Bahia",
-      "chance": 4.894
+      "chance": 4.845
     },
     {
       "rank": 5,
-      "team": "Mirassol",
-      "chance": 1.434
+      "team": "Botafogo",
+      "chance": 1.17
     },
     {
       "rank": 6,
-      "team": "Botafogo",
-      "chance": 1.176
+      "team": "Mirassol",
+      "chance": 1.057
     },
     {
       "rank": 7,
-      "team": "Fluminense",
-      "chance": 0.617
+      "team": "São Paulo",
+      "chance": 0.226
     },
     {
       "rank": 8,
-      "team": "São Paulo",
-      "chance": 0.248
+      "team": "Fluminense",
+      "chance": 0.153
     },
     {
       "rank": 9,
       "team": "Red Bull Bragantino",
-      "chance": 0.138
+      "chance": 0.119
     },
     {
       "rank": 10,
-      "team": "Atlético-MG",
-      "chance": 0.112
+      "team": "Ceará",
+      "chance": 0.03
     },
     {
       "rank": 11,
-      "team": "Ceará",
-      "chance": 0.104
+      "team": "Atlético-MG",
+      "chance": 0.019
     },
     {
       "rank": 12,
       "team": "Internacional",
-      "chance": 0.058
+      "chance": 0.007
     },
     {
       "rank": 13,
-      "team": "Grêmio",
-      "chance": 0.04
+      "team": "Corinthians",
+      "chance": 0.006
     },
     {
       "rank": 14,
-      "team": "Santos",
-      "chance": 0.014
+      "team": "Grêmio",
+      "chance": 0.004
     },
     {
       "rank": 15,
       "team": "Vasco",
-      "chance": 0.01
-    },
-    {
-      "rank": 16,
-      "team": "Corinthians",
-      "chance": 0.008
-    },
-    {
-      "rank": 17,
-      "team": "Juventude",
       "chance": 0.001
     },
     {
-      "rank": 18,
+      "rank": 16,
+      "team": "Santos",
+      "chance": 0
+    },
+    {
+      "rank": 17,
       "team": "Vitória",
       "chance": 0
     },
     {
+      "rank": 18,
+      "team": "Juventude",
+      "chance": 0
+    },
+    {
       "rank": 19,
-      "team": "Sport",
+      "team": "Fortaleza",
       "chance": 0
     },
     {
       "rank": 20,
-      "team": "Fortaleza",
+      "team": "Sport",
       "chance": 0
     }
   ],
@@ -110,204 +110,204 @@ const probabilidades = {
     {
       "rank": 1,
       "team": "Flamengo",
-      "chance": 99.121
+      "chance": 99.589
     },
     {
       "rank": 2,
       "team": "Palmeiras",
-      "chance": 96.606
+      "chance": 98.071
     },
     {
       "rank": 3,
       "team": "Cruzeiro",
-      "chance": 89.454
+      "chance": 92.718
     },
     {
       "rank": 4,
       "team": "Bahia",
-      "chance": 74.953
+      "chance": 81.743
     },
     {
       "rank": 5,
-      "team": "Mirassol",
-      "chance": 48.106
+      "team": "Botafogo",
+      "chance": 56.652
     },
     {
       "rank": 6,
-      "team": "Botafogo",
-      "chance": 47.801
+      "team": "Mirassol",
+      "chance": 53.982
     },
     {
       "rank": 7,
-      "team": "Fluminense",
-      "chance": 34.703
+      "team": "São Paulo",
+      "chance": 32.869
     },
     {
       "rank": 8,
-      "team": "São Paulo",
-      "chance": 26.807
+      "team": "Red Bull Bragantino",
+      "chance": 23.774
     },
     {
       "rank": 9,
-      "team": "Red Bull Bragantino",
-      "chance": 18.884
+      "team": "Fluminense",
+      "chance": 22.382
     },
     {
       "rank": 10,
-      "team": "Atlético-MG",
-      "chance": 16.21
+      "team": "Ceará",
+      "chance": 10.724
     },
     {
       "rank": 11,
-      "team": "Ceará",
-      "chance": 15.218
+      "team": "Atlético-MG",
+      "chance": 8.98
     },
     {
       "rank": 12,
       "team": "Internacional",
-      "chance": 10.922
+      "chance": 5.498
     },
     {
       "rank": 13,
       "team": "Grêmio",
-      "chance": 8
+      "chance": 5.163
     },
     {
       "rank": 14,
-      "team": "Santos",
-      "chance": 4.666
+      "team": "Corinthians",
+      "chance": 4.347
     },
     {
       "rank": 15,
-      "team": "Vasco",
-      "chance": 3.642
+      "team": "Santos",
+      "chance": 1.953
     },
     {
       "rank": 16,
-      "team": "Corinthians",
-      "chance": 3.071
+      "team": "Vasco",
+      "chance": 0.731
     },
     {
       "rank": 17,
       "team": "Juventude",
-      "chance": 0.759
+      "chance": 0.509
     },
     {
       "rank": 18,
       "team": "Vitória",
-      "chance": 0.751
+      "chance": 0.217
     },
     {
       "rank": 19,
       "team": "Fortaleza",
-      "chance": 0.29
+      "chance": 0.09
     },
     {
       "rank": 20,
       "team": "Sport",
-      "chance": 0.036
+      "chance": 0.008
     }
   ],
   "sulamericana": [
     {
       "rank": 1,
-      "team": "São Paulo",
-      "chance": 54.577
+      "team": "Red Bull Bragantino",
+      "chance": 60.873
     },
     {
       "rank": 2,
-      "team": "Red Bull Bragantino",
-      "chance": 53.932
+      "team": "Fluminense",
+      "chance": 58.881
     },
     {
       "rank": 3,
-      "team": "Ceará",
-      "chance": 50.951
+      "team": "São Paulo",
+      "chance": 57.666
     },
     {
       "rank": 4,
-      "team": "Atlético-MG",
-      "chance": 50.696
+      "team": "Ceará",
+      "chance": 55.369
     },
     {
       "rank": 5,
-      "team": "Fluminense",
-      "chance": 50.444
+      "team": "Atlético-MG",
+      "chance": 51.323
     },
     {
       "rank": 6,
       "team": "Internacional",
-      "chance": 47.197
+      "chance": 45.122
     },
     {
       "rank": 7,
-      "team": "Botafogo",
-      "chance": 43.772
+      "team": "Grêmio",
+      "chance": 43.958
     },
     {
       "rank": 8,
-      "team": "Mirassol",
-      "chance": 43.008
+      "team": "Corinthians",
+      "chance": 42.522
     },
     {
       "rank": 9,
-      "team": "Grêmio",
-      "chance": 42.345
+      "team": "Mirassol",
+      "chance": 41.923
     },
     {
       "rank": 10,
-      "team": "Santos",
-      "chance": 32.988
+      "team": "Botafogo",
+      "chance": 39.773
     },
     {
       "rank": 11,
-      "team": "Corinthians",
-      "chance": 29.38
+      "team": "Santos",
+      "chance": 28.473
     },
     {
       "rank": 12,
-      "team": "Vasco",
-      "chance": 28.537
+      "team": "Bahia",
+      "chance": 17.722
     },
     {
       "rank": 13,
-      "team": "Bahia",
-      "chance": 23.267
+      "team": "Vasco",
+      "chance": 17.449
     },
     {
       "rank": 14,
-      "team": "Vitória",
-      "chance": 13.644
+      "team": "Juventude",
+      "chance": 13.549
     },
     {
       "rank": 15,
-      "team": "Juventude",
-      "chance": 11.803
+      "team": "Vitória",
+      "chance": 9.905
     },
     {
       "rank": 16,
       "team": "Cruzeiro",
-      "chance": 10.215
+      "chance": 7.217
     },
     {
       "rank": 17,
       "team": "Fortaleza",
-      "chance": 7.037
+      "chance": 4.793
     },
     {
       "rank": 18,
       "team": "Palmeiras",
-      "chance": 3.358
+      "chance": 1.924
     },
     {
       "rank": 19,
       "team": "Sport",
-      "chance": 1.971
+      "chance": 1.147
     },
     {
       "rank": 20,
       "team": "Flamengo",
-      "chance": 0.878
+      "chance": 0.411
     }
   ],
   "permanencia": [
@@ -318,199 +318,199 @@ const probabilidades = {
     },
     {
       "rank": 2,
-      "team": "Cruzeiro",
-      "chance": 99.999
+      "team": "Palmeiras",
+      "chance": 100
     },
     {
       "rank": 3,
-      "team": "Palmeiras",
-      "chance": 99.998
+      "team": "Cruzeiro",
+      "chance": 100
     },
     {
       "rank": 4,
       "team": "Bahia",
-      "chance": 99.912
+      "chance": 99.99
     },
     {
       "rank": 5,
       "team": "Botafogo",
-      "chance": 99.128
+      "chance": 99.819
     },
     {
       "rank": 6,
       "team": "Mirassol",
-      "chance": 99.026
+      "chance": 99.796
     },
     {
       "rank": 7,
-      "team": "Fluminense",
-      "chance": 97.911
+      "team": "São Paulo",
+      "chance": 99.3
     },
     {
       "rank": 8,
-      "team": "São Paulo",
-      "chance": 97.443
+      "team": "Red Bull Bragantino",
+      "chance": 98.453
     },
     {
       "rank": 9,
-      "team": "Red Bull Bragantino",
-      "chance": 94.943
+      "team": "Fluminense",
+      "chance": 97.597
     },
     {
       "rank": 10,
       "team": "Ceará",
-      "chance": 92.573
+      "chance": 93.768
     },
     {
       "rank": 11,
       "team": "Atlético-MG",
-      "chance": 92.49
+      "chance": 91.266
     },
     {
       "rank": 12,
       "team": "Internacional",
-      "chance": 89.366
+      "chance": 87.459
     },
     {
       "rank": 13,
       "team": "Grêmio",
-      "chance": 85.317
+      "chance": 87.046
     },
     {
       "rank": 14,
-      "team": "Santos",
-      "chance": 76.021
+      "team": "Corinthians",
+      "chance": 86.339
     },
     {
       "rank": 15,
-      "team": "Corinthians",
-      "chance": 72.525
+      "team": "Santos",
+      "chance": 73.094
     },
     {
       "rank": 16,
       "team": "Vasco",
-      "chance": 70.426
+      "chance": 57.459
     },
     {
       "rank": 17,
-      "team": "Vitória",
-      "chance": 48.089
+      "team": "Juventude",
+      "chance": 49.73
     },
     {
       "rank": 18,
-      "team": "Juventude",
-      "chance": 41.933
+      "team": "Vitória",
+      "chance": 43.133
     },
     {
       "rank": 19,
       "team": "Fortaleza",
-      "chance": 30.727
+      "chance": 26.061
     },
     {
       "rank": 20,
       "team": "Sport",
-      "chance": 12.173
+      "chance": 9.69
     }
   ],
   "rebaixamento": [
     {
       "rank": 1,
       "team": "Sport",
-      "chance": 87.827
+      "chance": 90.31
     },
     {
       "rank": 2,
       "team": "Fortaleza",
-      "chance": 69.273
+      "chance": 73.939
     },
     {
       "rank": 3,
-      "team": "Juventude",
-      "chance": 58.067
+      "team": "Vitória",
+      "chance": 56.867
     },
     {
       "rank": 4,
-      "team": "Vitória",
-      "chance": 51.911
+      "team": "Juventude",
+      "chance": 50.27
     },
     {
       "rank": 5,
       "team": "Vasco",
-      "chance": 29.574
+      "chance": 42.541
     },
     {
       "rank": 6,
-      "team": "Corinthians",
-      "chance": 27.475
+      "team": "Santos",
+      "chance": 26.906
     },
     {
       "rank": 7,
-      "team": "Santos",
-      "chance": 23.979
+      "team": "Corinthians",
+      "chance": 13.661
     },
     {
       "rank": 8,
       "team": "Grêmio",
-      "chance": 14.683
+      "chance": 12.954
     },
     {
       "rank": 9,
       "team": "Internacional",
-      "chance": 10.634
+      "chance": 12.541
     },
     {
       "rank": 10,
       "team": "Atlético-MG",
-      "chance": 7.51
+      "chance": 8.734
     },
     {
       "rank": 11,
       "team": "Ceará",
-      "chance": 7.427
+      "chance": 6.232
     },
     {
       "rank": 12,
-      "team": "Red Bull Bragantino",
-      "chance": 5.057
+      "team": "Fluminense",
+      "chance": 2.403
     },
     {
       "rank": 13,
-      "team": "São Paulo",
-      "chance": 2.557
+      "team": "Red Bull Bragantino",
+      "chance": 1.547
     },
     {
       "rank": 14,
-      "team": "Fluminense",
-      "chance": 2.089
+      "team": "São Paulo",
+      "chance": 0.7
     },
     {
       "rank": 15,
       "team": "Mirassol",
-      "chance": 0.974
+      "chance": 0.204
     },
     {
       "rank": 16,
       "team": "Botafogo",
-      "chance": 0.872
+      "chance": 0.181
     },
     {
       "rank": 17,
       "team": "Bahia",
-      "chance": 0.088
+      "chance": 0.01
     },
     {
       "rank": 18,
-      "team": "Palmeiras",
-      "chance": 0.002
+      "team": "Flamengo",
+      "chance": 0
     },
     {
       "rank": 19,
-      "team": "Cruzeiro",
-      "chance": 0.001
+      "team": "Palmeiras",
+      "chance": 0
     },
     {
       "rank": 20,
-      "team": "Flamengo",
+      "team": "Cruzeiro",
       "chance": 0
     }
   ]
@@ -519,409 +519,409 @@ const probabilidades = {
   "campeao": [
     {
       "rank": 1,
-      "team": "Coritiba",
-      "chance": 38.378
+      "team": "Goiás",
+      "chance": 43.696
     },
     {
       "rank": 2,
-      "team": "Goiás",
-      "chance": 32.239
+      "team": "Coritiba",
+      "chance": 30.542
     },
     {
       "rank": 3,
       "team": "Chapecoense",
-      "chance": 10.124
+      "chance": 14.363
     },
     {
       "rank": 4,
-      "team": "Novorizontino",
-      "chance": 6
+      "team": "Criciúma",
+      "chance": 3.16
     },
     {
       "rank": 5,
-      "team": "Criciúma",
-      "chance": 2.771
+      "team": "Novorizontino",
+      "chance": 2.778
     },
     {
       "rank": 6,
       "team": "Remo",
-      "chance": 2.731
+      "chance": 1.809
     },
     {
       "rank": 7,
       "team": "Vila Nova",
-      "chance": 2.497
+      "chance": 1.06
     },
     {
       "rank": 8,
-      "team": "Avaí",
-      "chance": 2.446
+      "team": "Cuiabá",
+      "chance": 0.866
     },
     {
       "rank": 9,
-      "team": "Cuiabá",
-      "chance": 1.459
+      "team": "Avaí",
+      "chance": 0.758
     },
     {
       "rank": 10,
       "team": "CRB",
-      "chance": 0.55
+      "chance": 0.36
     },
     {
       "rank": 11,
-      "team": "Ferroviária",
-      "chance": 0.293
+      "team": "Athletico-PR",
+      "chance": 0.219
     },
     {
       "rank": 12,
       "team": "Operário-PR",
-      "chance": 0.2
+      "chance": 0.17
     },
     {
       "rank": 13,
-      "team": "Atlético-GO",
-      "chance": 0.109
+      "team": "Ferroviária",
+      "chance": 0.158
     },
     {
       "rank": 14,
-      "team": "Athletico-PR",
-      "chance": 0.098
+      "team": "Atlético-GO",
+      "chance": 0.036
     },
     {
       "rank": 15,
       "team": "Athletic-MG",
-      "chance": 0.073
+      "chance": 0.013
     },
     {
       "rank": 16,
-      "team": "Volta Redonda",
-      "chance": 0.021
+      "team": "Botafogo-SP",
+      "chance": 0.008
     },
     {
       "rank": 17,
-      "team": "América-MG",
-      "chance": 0.005
+      "team": "Amazonas",
+      "chance": 0.003
     },
     {
       "rank": 18,
-      "team": "Botafogo-SP",
-      "chance": 0.003
+      "team": "Volta Redonda",
+      "chance": 0.001
     },
     {
       "rank": 19,
       "team": "Paysandu",
-      "chance": 0.002
+      "chance": 0
     },
     {
       "rank": 20,
-      "team": "Amazonas",
-      "chance": 0.001
+      "team": "América-MG",
+      "chance": 0
     }
   ],
   "acesso": [
     {
       "rank": 1,
-      "team": "Coritiba",
-      "chance": 85.807
+      "team": "Goiás",
+      "chance": 90.529
     },
     {
       "rank": 2,
-      "team": "Goiás",
-      "chance": 81.574
+      "team": "Coritiba",
+      "chance": 85.248
     },
     {
       "rank": 3,
       "team": "Chapecoense",
-      "chance": 53.376
+      "chance": 68.108
     },
     {
       "rank": 4,
-      "team": "Novorizontino",
-      "chance": 41.197
+      "team": "Criciúma",
+      "chance": 32.834
     },
     {
       "rank": 5,
-      "team": "Remo",
-      "chance": 25.606
+      "team": "Novorizontino",
+      "chance": 31.181
     },
     {
       "rank": 6,
-      "team": "Criciúma",
-      "chance": 24.696
+      "team": "Remo",
+      "chance": 22.937
     },
     {
       "rank": 7,
       "team": "Vila Nova",
-      "chance": 23.357
+      "chance": 16.058
     },
     {
       "rank": 8,
-      "team": "Avaí",
-      "chance": 22.661
+      "team": "Cuiabá",
+      "chance": 14.7
     },
     {
       "rank": 9,
-      "team": "Cuiabá",
-      "chance": 16.727
+      "team": "Avaí",
+      "chance": 13.125
     },
     {
       "rank": 10,
       "team": "CRB",
-      "chance": 7.703
+      "chance": 7.669
     },
     {
       "rank": 11,
-      "team": "Ferroviária",
-      "chance": 5.518
+      "team": "Athletico-PR",
+      "chance": 5.009
     },
     {
       "rank": 12,
       "team": "Operário-PR",
-      "chance": 3.483
+      "chance": 4.98
     },
     {
       "rank": 13,
-      "team": "Athletico-PR",
-      "chance": 2.735
+      "team": "Ferroviária",
+      "chance": 4.374
     },
     {
       "rank": 14,
       "team": "Atlético-GO",
-      "chance": 2.481
+      "chance": 1.776
     },
     {
       "rank": 15,
       "team": "Athletic-MG",
-      "chance": 1.781
+      "chance": 0.532
     },
     {
       "rank": 16,
-      "team": "Volta Redonda",
-      "chance": 0.576
+      "team": "Botafogo-SP",
+      "chance": 0.447
     },
     {
       "rank": 17,
-      "team": "América-MG",
-      "chance": 0.262
+      "team": "Amazonas",
+      "chance": 0.217
     },
     {
       "rank": 18,
-      "team": "Botafogo-SP",
-      "chance": 0.213
+      "team": "Volta Redonda",
+      "chance": 0.138
     },
     {
       "rank": 19,
-      "team": "Amazonas",
-      "chance": 0.136
+      "team": "América-MG",
+      "chance": 0.099
     },
     {
       "rank": 20,
       "team": "Paysandu",
-      "chance": 0.111
+      "chance": 0.039
     }
   ],
   "permanencia": [
     {
       "rank": 1,
-      "team": "Ferroviária",
-      "chance": 84.265
+      "team": "CRB",
+      "chance": 86.293
     },
     {
       "rank": 2,
-      "team": "CRB",
-      "chance": 83.858
+      "team": "Operário-PR",
+      "chance": 85.543
     },
     {
       "rank": 3,
-      "team": "Cuiabá",
-      "chance": 80.807
+      "team": "Athletico-PR",
+      "chance": 85.322
     },
     {
       "rank": 4,
-      "team": "Operário-PR",
-      "chance": 79.706
+      "team": "Ferroviária",
+      "chance": 84.756
     },
     {
       "rank": 5,
-      "team": "Athletico-PR",
-      "chance": 78.903
+      "team": "Avaí",
+      "chance": 83.897
     },
     {
       "rank": 6,
-      "team": "Atlético-GO",
-      "chance": 77.967
+      "team": "Cuiabá",
+      "chance": 82.773
     },
     {
       "rank": 7,
-      "team": "Avaí",
-      "chance": 75.565
+      "team": "Vila Nova",
+      "chance": 81.673
     },
     {
       "rank": 8,
-      "team": "Vila Nova",
-      "chance": 75.181
+      "team": "Atlético-GO",
+      "chance": 77.172
     },
     {
       "rank": 9,
-      "team": "Criciúma",
-      "chance": 73.782
+      "team": "Remo",
+      "chance": 75.968
     },
     {
       "rank": 10,
-      "team": "Remo",
-      "chance": 73.176
+      "team": "Novorizontino",
+      "chance": 68.272
     },
     {
       "rank": 11,
-      "team": "Athletic-MG",
-      "chance": 70.33
+      "team": "Criciúma",
+      "chance": 66.732
     },
     {
       "rank": 12,
-      "team": "Novorizontino",
-      "chance": 58.496
+      "team": "Athletic-MG",
+      "chance": 60.415
     },
     {
       "rank": 13,
-      "team": "Volta Redonda",
-      "chance": 53.829
+      "team": "Botafogo-SP",
+      "chance": 57.609
     },
     {
       "rank": 14,
-      "team": "Chapecoense",
-      "chance": 46.514
+      "team": "Amazonas",
+      "chance": 46.723
     },
     {
       "rank": 15,
-      "team": "América-MG",
-      "chance": 45.287
+      "team": "Volta Redonda",
+      "chance": 40.547
     },
     {
       "rank": 16,
-      "team": "Botafogo-SP",
-      "chance": 42.675
+      "team": "América-MG",
+      "chance": 35.502
     },
     {
       "rank": 17,
-      "team": "Paysandu",
-      "chance": 33.53
+      "team": "Chapecoense",
+      "chance": 31.885
     },
     {
       "rank": 18,
-      "team": "Amazonas",
-      "chance": 33.512
+      "team": "Paysandu",
+      "chance": 24.695
     },
     {
       "rank": 19,
-      "team": "Goiás",
-      "chance": 18.425
+      "team": "Coritiba",
+      "chance": 14.752
     },
     {
       "rank": 20,
-      "team": "Coritiba",
-      "chance": 14.192
+      "team": "Goiás",
+      "chance": 9.471
     }
   ],
   "rebaixamento": [
     {
       "rank": 1,
       "team": "Paysandu",
-      "chance": 66.359
+      "chance": 75.266
     },
     {
       "rank": 2,
-      "team": "Amazonas",
-      "chance": 66.352
+      "team": "América-MG",
+      "chance": 64.399
     },
     {
       "rank": 3,
-      "team": "Botafogo-SP",
-      "chance": 57.112
+      "team": "Volta Redonda",
+      "chance": 59.315
     },
     {
       "rank": 4,
-      "team": "América-MG",
-      "chance": 54.451
+      "team": "Amazonas",
+      "chance": 53.06
     },
     {
       "rank": 5,
-      "team": "Volta Redonda",
-      "chance": 45.595
+      "team": "Botafogo-SP",
+      "chance": 41.944
     },
     {
       "rank": 6,
       "team": "Athletic-MG",
-      "chance": 27.889
+      "chance": 39.053
     },
     {
       "rank": 7,
       "team": "Atlético-GO",
-      "chance": 19.552
+      "chance": 21.052
     },
     {
       "rank": 8,
-      "team": "Athletico-PR",
-      "chance": 18.362
+      "team": "Ferroviária",
+      "chance": 10.87
     },
     {
       "rank": 9,
-      "team": "Operário-PR",
-      "chance": 16.811
+      "team": "Athletico-PR",
+      "chance": 9.669
     },
     {
       "rank": 10,
-      "team": "Ferroviária",
-      "chance": 10.217
+      "team": "Operário-PR",
+      "chance": 9.477
     },
     {
       "rank": 11,
       "team": "CRB",
-      "chance": 8.439
+      "chance": 6.038
     },
     {
       "rank": 12,
-      "team": "Cuiabá",
-      "chance": 2.466
+      "team": "Avaí",
+      "chance": 2.978
     },
     {
       "rank": 13,
-      "team": "Avaí",
-      "chance": 1.774
+      "team": "Cuiabá",
+      "chance": 2.527
     },
     {
       "rank": 14,
-      "team": "Criciúma",
-      "chance": 1.522
+      "team": "Vila Nova",
+      "chance": 2.269
     },
     {
       "rank": 15,
-      "team": "Vila Nova",
-      "chance": 1.462
+      "team": "Remo",
+      "chance": 1.095
     },
     {
       "rank": 16,
-      "team": "Remo",
-      "chance": 1.218
+      "team": "Novorizontino",
+      "chance": 0.547
     },
     {
       "rank": 17,
-      "team": "Novorizontino",
-      "chance": 0.307
+      "team": "Criciúma",
+      "chance": 0.434
     },
     {
       "rank": 18,
       "team": "Chapecoense",
-      "chance": 0.11
+      "chance": 0.007
     },
     {
       "rank": 19,
-      "team": "Coritiba",
-      "chance": 0.001
+      "team": "Goiás",
+      "chance": 0
     },
     {
       "rank": 20,
-      "team": "Goiás",
-      "chance": 0.001
+      "team": "Coritiba",
+      "chance": 0
     }
   ]
 }
