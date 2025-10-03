@@ -1896,7 +1896,8 @@ function createTablePoints(containerId, title, data) {
         const percentageText = item.chance.toFixed(2) + '%';
 
         row.innerHTML = `
-            <div class="rank">${item.points} pts</div>
+            <div class="rank">${item.rank}º</div>
+            <div class="team-name">${item.points} pts</div>
             <div class="progress-container">
                 <div class="progress-bar">
                     <div class="progress-bar-inner" style="width: ${item.chance}%;"></div>
