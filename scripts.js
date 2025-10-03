@@ -1925,16 +1925,16 @@ function loadPage() {
         createTable('permanencia-b-container', 'Permanência à Série B (4-16)', probabilidades.serieB.permanencia)
         createTable('rebaixamento-b-container', 'Rebaixamento à Série C', probabilidades.serieB.rebaixamento);
     } else if (pageId === 'pontos-brasileirao-a') {
-      createTable('campeao-container', 'Campeão', probabilidades.pontos_a.campeaoPorPontos)
-      createTable('libertadores-container', 'Classificação à Libertadores (G6)', probabilidades.pontos_a.libertadoresPorPontos)
-      createTable('sudamericana-container', 'Classificação à Sudamericana', probabilidades.pontos_a.sulamericanaPorPontos)
-      createTable('permanencia-container', 'Permanência na Série A', probabilidades.pontos_a.permanenciaPorPontos)
-      createTable('rebaixamento-container', 'Rebaixamento à Série B', probabilidades.pontos_a.rebaixamentoPorPontos)
+      createTablePoints('campeao-container', 'Campeão', probabilidades.pontos_a.campeaoPorPontos)
+      createTablePoints('libertadores-container', 'Classificação à Libertadores (G6)', probabilidades.pontos_a.libertadoresPorPontos)
+      createTablePoints('sudamericana-container', 'Classificação à Sudamericana', probabilidades.pontos_a.sulamericanaPorPontos)
+      createTablePoints('permanencia-container', 'Permanência na Série A', probabilidades.pontos_a.permanenciaPorPontos)
+      createTablePoints('rebaixamento-container', 'Rebaixamento à Série B', probabilidades.pontos_a.rebaixamentoPorPontos)
     } else if (pageId === 'pontos-brasileirao-b') {
-      createTable('campeao-b-container', 'Campeão', probabilidades.pontos_b.campeaoPorPontos)
-      createTable('acesso-b-container', 'Acesso à Série A', probabilidades.pontos_b.acessoPorPontos)
-      createTable('permanencia-b-container', 'Permanência à Série B (4-16)', probabilidades.pontos_b.permanenciaPorPontos)
-      createTable('rebaixamento-b-container', 'Rebaixamento à Série C', probabilidades.pontos_b.rebaixamentoPorPontos)
+      createTablePoints('campeao-b-container', 'Campeão', probabilidades.pontos_b.campeaoPorPontos)
+      createTablePoints('acesso-b-container', 'Acesso à Série A', probabilidades.pontos_b.acessoPorPontos)
+      createTablePoints('permanencia-b-container', 'Permanência à Série B (4-16)', probabilidades.pontos_b.permanenciaPorPontos)
+      createTablePoints('rebaixamento-b-container', 'Rebaixamento à Série C', probabilidades.pontos_b.rebaixamentoPorPontos)
     }
 }
 if (document.readyState !== 'loading') {
